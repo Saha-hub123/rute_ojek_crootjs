@@ -1,0 +1,403 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Dataset Geospasial Rute Ojek Online Rp10.000",
+    "region": "Sarijadi, Bandung (Sekitar Kampus ULBI)",
+    "author": "Mohammad Isa (714240013) - ULBI",
+    "created_at": "2026-11-09",
+    "description": "Data spasial rute ojek promo Rp10.000, lokasi driver aktif, titik jemput/tujuan, dan zona operasional untuk query spasial MongoDB & visualisasi Leaflet CrootJS."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.576200, -6.874500],
+          [107.577500, -6.877000],
+          [107.580200, -6.880500],
+          [107.584000, -6.883800],
+          [107.589000, -6.886500],
+          [107.592500, -6.888200],
+          [107.596100, -6.889400]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-01",
+        "name": "Rute Kampus ULBI - Paris Van Java (PVJ)",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 3.2,
+        "estimasi_menit": 10,
+        "titik_jemput": "Gerbang Utama Kampus ULBI Bandung",
+        "titik_tujuan": "Lobby Utama Mall Paris Van Java (PVJ)",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Surya Sumantri -> Jl. Sukajadi",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Kang Asep (D 4521 SAH)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.574200, -6.873100],
+          [107.572800, -6.872200],
+          [107.571500, -6.871800],
+          [107.570200, -6.871200]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-02",
+        "name": "Rute Kampus ULBI - Kampus POLBAN",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 1.9,
+        "estimasi_menit": 6,
+        "titik_jemput": "Pintu Keluar Barat Kampus ULBI",
+        "titik_tujuan": "Gerbang Utama POLBAN Ciwaruga",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Ciwaruga Raya",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Mang Ujang (D 3190 UJG)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.574800, -6.875500],
+          [107.573200, -6.878800],
+          [107.570100, -6.883000],
+          [107.566500, -6.888500],
+          [107.562000, -6.893200],
+          [107.559200, -6.897100]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-03",
+        "name": "Rute Kampus ULBI - Stasiun Cimindi",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 3.6,
+        "estimasi_menit": 12,
+        "titik_jemput": "Halte Depan Kampus ULBI",
+        "titik_tujuan": "Pintu Masuk Stasiun Kereta Cimindi",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Gunung Batu -> Jl. Cimindi",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Mas Budi (D 5812 BDI)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.576800, -6.875800],
+          [107.578900, -6.878500],
+          [107.581500, -6.881200],
+          [107.583200, -6.882400]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-04",
+        "name": "Rute Kampus ULBI - Setrasari Plaza",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 2.2,
+        "estimasi_menit": 7,
+        "titik_jemput": "Pos Satpam Depan ULBI",
+        "titik_tujuan": "Kawasan Ruko & Mall Setrasari Plaza",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Babakan Jeruk Indah -> Jl. Setrasari",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Kang Dani (D 2410 DNI)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.576900, -6.873900],
+          [107.578500, -6.874200],
+          [107.579600, -6.874600]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-05",
+        "name": "Rute ULBI - Pasar Sarijadi & Sentra Kuliner",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 1.2,
+        "estimasi_menit": 4,
+        "titik_jemput": "Asrama Mahasiswa ULBI Gandaria",
+        "titik_tujuan": "Pasar Modern Sarijadi & Food Court",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Sarimanah Raya",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Mang Cecep (D 6729 CCP)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.575541, -6.873691],
+          [107.577200, -6.876500],
+          [107.579800, -6.881000],
+          [107.581900, -6.884500],
+          [107.582600, -6.887200]
+        ]
+      },
+      "properties": {
+        "id": "RUTE-06",
+        "name": "Rute ULBI - Griya Toserba Pasteur",
+        "kategori": "Rute Ojek",
+        "tipe": "LineString",
+        "tarif": 10000,
+        "jarak_km": 2.7,
+        "estimasi_menit": 8,
+        "titik_jemput": "Gerbang Rektorat ULBI",
+        "titik_tujuan": "Griya Toserba Pasteur (Jl. Surya Sumantri)",
+        "jalur_jalan": "Jl. Sari Asih -> Jl. Surya Sumantri Utama",
+        "status": "Aktif - Promo Rp10.000",
+        "driver_rekomendasi": "Mas Agus (D 1109 AGS)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.575800, -6.873900]
+      },
+      "properties": {
+        "id": "DRV-001",
+        "name": "Kang Asep Saepudin",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Honda Vario 160 Hitam",
+        "plat_nomor": "D 4521 SAH",
+        "rating": 4.95,
+        "total_order": 1240,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 45,
+        "kontak": "0812-3456-7890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.574900, -6.873200]
+      },
+      "properties": {
+        "id": "DRV-002",
+        "name": "Mang Ujang Supriatna",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Yamaha NMAX Biru Doff",
+        "plat_nomor": "D 3190 UJG",
+        "rating": 4.90,
+        "total_order": 890,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 90,
+        "kontak": "0813-9876-5432"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.576700, -6.874800]
+      },
+      "properties": {
+        "id": "DRV-003",
+        "name": "Mas Budi Santoso",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Honda Beat Deluxe Putih",
+        "plat_nomor": "D 5812 BDI",
+        "rating": 4.88,
+        "total_order": 650,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 180,
+        "kontak": "0857-1122-3344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.573800, -6.872500]
+      },
+      "properties": {
+        "id": "DRV-004",
+        "name": "Kang Dani Ramdani",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Honda Scoopy Prestige",
+        "plat_nomor": "D 2410 DNI",
+        "rating": 4.92,
+        "total_order": 1050,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 240,
+        "kontak": "0878-5566-7788"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.578800, -6.875200]
+      },
+      "properties": {
+        "id": "DRV-005",
+        "name": "Mang Cecep Hidayat",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Yamaha Aerox Silver",
+        "plat_nomor": "D 6729 CCP",
+        "rating": 4.85,
+        "total_order": 430,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 410,
+        "kontak": "0896-3344-5566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.581200, -6.879500]
+      },
+      "properties": {
+        "id": "DRV-006",
+        "name": "Mas Agus Setiawan",
+        "kategori": "Driver Ojek",
+        "tipe": "Point",
+        "kendaraan": "Honda PCX 160 Merah",
+        "plat_nomor": "D 1109 AGS",
+        "rating": 4.97,
+        "total_order": 1580,
+        "status": "Tersedia",
+        "jarak_dari_ulbi_m": 880,
+        "kontak": "0821-7788-9900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.575541, -6.873691]
+      },
+      "properties": {
+        "id": "POI-PICKUP-01",
+        "name": "Titik Jemput: Gerbang Utama Kampus ULBI",
+        "kategori": "Titik Penjemputan",
+        "tipe": "Point",
+        "deskripsi": "Halte dan Pos Satpam Pintu Utama Universitas Logistik dan Bisnis Internasional.",
+        "zona": "Sarijadi Inti",
+        "tarif_dasar": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.576200, -6.872800]
+      },
+      "properties": {
+        "id": "POI-PICKUP-02",
+        "name": "Titik Jemput: Asrama Mahasiswa ULBI",
+        "kategori": "Titik Penjemputan",
+        "tipe": "Point",
+        "deskripsi": "Lobby Asrama Mahasiswa (Raflesia & Anggrek) ULBI.",
+        "zona": "Sarijadi Inti",
+        "tarif_dasar": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.596100, -6.889400]
+      },
+      "properties": {
+        "id": "POI-DROPOFF-01",
+        "name": "Titik Tujuan: Mall Paris Van Java (PVJ)",
+        "kategori": "Titik Tujuan",
+        "tipe": "Point",
+        "deskripsi": "Drop Zone Ojek Online Lobby Sukajadi Mall PVJ.",
+        "zona": "Sukajadi",
+        "tarif_promo": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.570200, -6.871200]
+      },
+      "properties": {
+        "id": "POI-DROPOFF-02",
+        "name": "Titik Tujuan: Kampus POLBAN",
+        "kategori": "Titik Tujuan",
+        "tipe": "Point",
+        "deskripsi": "Pintu Gerbang Utama POLBAN Jl. Ciwaruga.",
+        "zona": "Ciwaruga",
+        "tarif_promo": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.559200, -6.897100]
+      },
+      "properties": {
+        "id": "POI-DROPOFF-03",
+        "name": "Titik Tujuan: Stasiun Cimindi",
+        "kategori": "Titik Tujuan",
+        "tipe": "Point",
+        "deskripsi": "Area Parkir dan Pintu Penumpang Stasiun KA Cimindi.",
+        "zona": "Cimindi",
+        "tarif_promo": 10000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.555000, -6.865000],
+            [107.605000, -6.865000],
+            [107.605000, -6.905000],
+            [107.555000, -6.905000],
+            [107.555000, -6.865000]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ZONA-FLAT-10K",
+        "name": "Zona Promo Ojek Online Flat Rp10.000",
+        "kategori": "Zona Layanan",
+        "tipe": "Polygon",
+        "tarif_flat": 10000,
+        "max_jarak_km": 4.0,
+        "deskripsi": "Batas wilayah radius layanan promosi flat Rp10.000 mencakup area Sarijadi, Sukajadi, Pasteur, Ciwaruga, dan Cimindi Bandung.",
+        "syarat_ketentuan": "Berlaku untuk rute penjemputan atau tujuan di dalam batas poligon."
+      }
+    }
+  ]
+}
